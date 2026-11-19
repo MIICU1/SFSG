@@ -1,0 +1,15 @@
+
+
+data:
+  target: datamodule.sp_2D_datamodule_v2.spDatamodule
+  params:
+    train_img_root: ???
+    train_label_root: ???
+    test_img_root: ???
+    test_label_root:  ???
+    train_json_path:  ???
+    test_json_path:  ???
+    image_size: [512,512]
+    crop_size: [512, 512]
+    batch_size: 4
+    num_workers: 32

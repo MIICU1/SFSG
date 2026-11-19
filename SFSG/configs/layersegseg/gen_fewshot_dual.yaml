@@ -1,0 +1,16 @@
+data:
+  target: datamodule.layerseg.dual_datamodule.spDatamodule
+  params:
+    train_img1_root: ???
+    train_label1_root: ???
+    train_json1_path: ???
+    train_img2_root: ???
+    train_label2_root: ???
+    train_json2_path: ???
+    test_img_root: ???
+    test_label_root: ???
+    test_json_path: ./jsons/oct6mm_val/test_pathes.json
+    image_size: [640,400]
+    crop_size: [640, 400]
+    batch_size: 4
+    num_workers: 8
